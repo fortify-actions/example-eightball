@@ -19,6 +19,10 @@ jobs:
       - name: Package with scancentral
         run: scancentral package -bt mvn -o eightball.zip
       - name: FoDUploader
+        env:
+          FOD_BSI: ${{ secrets.FOD_BSI }}
+          FOD_USER: ${{ secrets.FOD_USER }}
+          FOD_PWD: ${{ secrets.FOD_PWD }}
         run: |
           echo "FOD_BSI: $FOD_BSI"
           java -jar $FOD_UPLOAD_JAR -bsi "$FOD_BSI" -z eightball.zip -ep 2 -uc "$FOD_USER" "$FOD_PWD"
