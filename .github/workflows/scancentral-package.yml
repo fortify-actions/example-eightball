@@ -19,7 +19,7 @@ jobs:
       - name: Package with scancentral
         run: scancentral package -bt mvn -o eightball.zip
       - name: FoDUploader
-        run: $FOD_UPLOAD_CMD -v
+        run: java -jar $FOD_UPLOAD_JAR -v
       - name: Upload package
         uses: actions/upload-artifact@v2
         with:
