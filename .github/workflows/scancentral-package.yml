@@ -15,7 +15,7 @@ jobs:
         with:
           java-version: 1.8
       - name: Package with scancentral
-        run: scancentral -bt mvn -o eightball.zip
+        run: scancentral package -bt mvn -o eightball.zip
       - name: Upload package
         uses: actions/upload-artifact@v2
         with:
