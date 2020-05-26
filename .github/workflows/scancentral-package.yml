@@ -1,4 +1,4 @@
-name: ScanCentral Package
+name: FoD scan
 
 on: [push]
 
@@ -24,9 +24,4 @@ jobs:
           FOD_USER: ${{ secrets.FOD_USER }}
           FOD_PWD: ${{ secrets.FOD_PWD }}
         run: |
-          java -jar $FOD_UPLOAD_JAR -bsi "$FOD_BSI" -z eightball.zip -uc "$FOD_USER" "$FOD_PWD" -ep 2
-      - name: Upload package
-        uses: actions/upload-artifact@v2
-        with:
-          name: eightball.zip
-          path: eightball.zip
+          java -jar $FOD_UPLOAD_JAR -bsi "$FOD_BSI" -z eightball.zip -uc "$FOD_USER" "$FOD_PWD" -ep 2 -pp CancelInProgressScan
