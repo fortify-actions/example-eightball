@@ -8,20 +8,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Fortify ScanCentral
-        uses: fortify-actions/setup-scancentral@master
-      - name: Set up FoD Uploader
-        uses: fortify-actions/setup-fod-uploader@master
-      - name: Set up JDK 1.8
-        uses: actions/setup-java@v1
+      - uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      - name: Package with scancentral
-        run: scancentral package -bt mvn -o eightball.zip
-      - name: FoDUploader
-        env:
+      - uses: fortify-actions/setup-scancentral-client@v1
+      - uses: fortify-actions/setup-fod-uploader@v1
+      - env:
           FOD_BSI: ${{ secrets.FOD_BSI }}
           FOD_USER: ${{ secrets.FOD_USER }}
           FOD_PWD: ${{ secrets.FOD_PWD }}
         run: |
-          java -jar $FOD_UPLOAD_JAR -bsi "$FOD_BSI" -z eightball.zip -uc "$FOD_USER" "$FOD_PWD" -ep 2 -pp 1
+          scancentral package -bt mvn -o sample.zip
+          java -jar $FOD_UPLOAD_JAR -bsi "$FOD_BSI" -z sample.zip -uc "$FOD_USER" "$FOD_PWD" -ep 2 -pp 1
