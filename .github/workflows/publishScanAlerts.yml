@@ -1,4 +1,4 @@
-name: Download FoD FPR
+name: Publish scan alerts
 
 on: [push]
 
