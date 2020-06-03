@@ -25,10 +25,12 @@ jobs:
         with:
           sarif_file: ./sarif
       - uses: actions/upload-artifact@v2
+        if: always()
         with:
           name: fpr-files
           path: ./fpr
       - uses: actions/upload-artifact@v2
+        if: always()
         with:
           name: sarif-files
           path: ./sarif
