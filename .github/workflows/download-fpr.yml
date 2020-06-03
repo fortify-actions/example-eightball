@@ -14,8 +14,8 @@ jobs:
           user: ${{ secrets.FOD_USER }}
           password: ${{ secrets.FOD_PWD }}
           release-id: 250384
-          outputDir: ~/.fpr
+          outputDir: ./fpr
       - uses: actions/upload-artifact@v2
         with:
           name: fpr-files
-          path: ~/.fpr
+          path: ./fpr
