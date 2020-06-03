@@ -1,0 +1,16 @@
+name: Download FoD FPR
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: fortify-actions/fod-download-fpr@master
+        with:
+          base-url: https://ams.fortify.com
+          tenant: FortifyPS
+          user: ${{ secrets.FOD_USER }}
+          password: ${{ secrets.FOD_PWD }}
+          release-id: 250384
