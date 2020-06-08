@@ -9,12 +9,11 @@
           "message": {
             "text": "Attackers are able to control the file system path argument to FileReader() at [EightBall.java](1) line [14](1), which allows them to access or modify otherwise protected files.\nAllowing user input to control paths used in file system operations could enable an attacker to access or modify otherwise protected system resources."
           },
-		  "level": "error",
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
+                  "index": 0
                 },
                 "region": {
                   "startLine": 14,
@@ -30,6 +29,51 @@
                   }
                 }
               }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0
+                    },
+                    {
+                      "index": 1
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "index": 0
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "snippet": {
+                              "text": "\t\tnew FileReader(filename).read(buffer);"
+                            }
+                          },
+                          "contextRegion": {
+                            "startLine": 11,
+                            "endLine": 17,
+                            "snippet": {
+                              "text": "\t\t} catch (Exception e) {\n\t\t\tSystem.out.println(\"Invalid input.\");\n\t\t}\n\t\tnew FileReader(filename).read(buffer);\n\t\tSystem.out.println(buffer);\n\t}\n}\n"
+                            }
+                          }
+                        },
+                        "message": {
+                          "text": "FileReader(0)"
+                        }
+                      },
+                      "kinds": [
+                        "call",
+                        "function"
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "properties": {
