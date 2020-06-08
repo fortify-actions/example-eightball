@@ -148,6 +148,7 @@
         },
         {
           "ruleIndex": 5,
+		  "level": "error",
           "message": {
             "text": "The class EightBall contains debug code, which can create unintended entry points in a deployed web application.\nDebug code can create unintended entry points in a deployed web application."
           },
@@ -220,6 +221,7 @@
         },
         {
           "ruleIndex": 0,
+		  "level": "error",
           "message": {
             "text": "This maven build script relies on external sources, which could allow an attacker to insert malicious code into the final product or to take control of the build machine."
           },
@@ -239,6 +241,7 @@
         },
         {
           "ruleIndex": 2,
+		  "level": "error",
           "message": {
             "text": "The method main() in [EightBall.java](1) ignores the value returned by read() on line [14](1), which could cause the program to overlook unexpected states and conditions.\nIgnoring a method's return value can cause the program to overlook unexpected states and conditions."
           },
@@ -310,6 +313,7 @@
         },
         {
           "ruleIndex": 4,
+		  "level": "error",
           "message": {
             "text": "Attackers are able to control the file system path argument to FileReader() at [EightBall.java](1) line [14](1), which allows them to access or modify otherwise protected files.\nAllowing user input to control paths used in file system operations could enable an attacker to access or modify otherwise protected system resources."
           },
@@ -393,6 +397,7 @@
         },
         {
           "ruleIndex": 1,
+		  "level": "error",
           "message": {
             "text": "Attackers are able to control the file system path argument to FileReader() at [EightBall.java](1) line [14](1), which allows them to access or modify otherwise protected files.\nAllowing user input to control paths used in file system operations could enable an attacker to access or modify otherwise protected system resources."
           },
@@ -470,6 +475,7 @@
         },
         {
           "ruleIndex": 3,
+		  "level": "error",
           "message": {
             "text": "The function main() in [EightBall.java](1) sometimes fails to release a system resource allocated by FileReader() on line 14.\nThe program can potentially fail to release a system resource."
           },
