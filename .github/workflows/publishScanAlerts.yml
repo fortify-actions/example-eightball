@@ -1,5 +1,5 @@
 name: Publish scan alerts
-
+x
 on: [push]
 
 jobs:
