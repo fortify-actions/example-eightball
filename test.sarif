@@ -218,25 +218,6 @@
             "Confidence": "5.0"
           }
         },
-		{
-          "ruleIndex": 0,
-          "message": {
-            "text": "This maven build script relies on external sources, which could allow an attacker to insert malicious code into the final product or to take control of the build machine."
-          },
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": []
-                }
-              ]
-            }
-          ],
-          "properties": {
-            "InstanceSeverity": "2.0",
-            "Confidence": "5.0"
-          }
-        },
         {
           "ruleIndex": 2,
 		            "message": {
