@@ -1,5 +1,5 @@
 name: "Code scanning - action"
-
+x
 on:
   push:
   pull_request:
