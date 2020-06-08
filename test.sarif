@@ -95,7 +95,7 @@
             "InstanceSeverity": "3.0",
             "Confidence": "5.0"
           }
-        },
+        }
       ],
       "tool": {
         "driver": {

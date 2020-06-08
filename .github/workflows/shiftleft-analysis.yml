@@ -3,8 +3,9 @@
 # Visit https://docs.shiftleft.io/shiftleft/scan/integrations/github-actions for help
 name: ShiftLeft Scan
 
-# This section configures the trigger for the workflow. Feel free to customize depending on your convention
-on: push
+on: 
+  schedule:
+    - cron:  '0 0 1 1 *'
 
 jobs:
   Scan-Build:
