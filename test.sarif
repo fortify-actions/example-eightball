@@ -1,12 +1,105 @@
 {
-  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
   "version": "2.1.0",
   "runs": [
     {
-      "results": [],
+      "results": [
+        {
+          "ruleIndex": 1,
+          "message": {
+            "text": "Attackers are able to control the file system path argument to FileReader() at [EightBall.java](1) line [14](1), which allows them to access or modify otherwise protected files.\nAllowing user input to control paths used in file system operations could enable an attacker to access or modify otherwise protected system resources."
+          },
+		  "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 14,
+                  "snippet": {
+                    "text": "\t\tnew FileReader(filename).read(buffer);"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 11,
+                  "endLine": 17,
+                  "snippet": {
+                    "text": "\t\t} catch (Exception e) {\n\t\t\tSystem.out.println(\"Invalid input.\");\n\t\t}\n\t\tnew FileReader(filename).read(buffer);\n\t\tSystem.out.println(buffer);\n\t}\n}\n"
+                  }
+                }
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0
+                    },
+                    {
+                      "index": 1
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "index": 0
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "snippet": {
+                              "text": "\t\tnew FileReader(filename).read(buffer);"
+                            }
+                          },
+                          "contextRegion": {
+                            "startLine": 11,
+                            "endLine": 17,
+                            "snippet": {
+                              "text": "\t\t} catch (Exception e) {\n\t\t\tSystem.out.println(\"Invalid input.\");\n\t\t}\n\t\tnew FileReader(filename).read(buffer);\n\t\tSystem.out.println(buffer);\n\t}\n}\n"
+                            }
+                          }
+                        },
+                        "message": {
+                          "text": "FileReader(0)"
+                        }
+                      },
+                      "kinds": [
+                        "call",
+                        "function"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "relatedLocations": [
+            {
+              "id": 1,
+              "physicalLocation": {
+                "artifactLocation": {
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "InstanceSeverity": "3.0",
+            "Confidence": "5.0"
+          }
+        },
+      ],
       "tool": {
         "driver": {
-          "name": "Fortify",
+          "name": "Micro Focus Fortify Static Code Analyzer",
           "rules": [
             {
               "id": "FF57412F-DD28-44DE-8F4F-0AD39620768C",
@@ -376,9 +469,6 @@
               },
               "region": {
                 "startLine": 6,
-                "endLine": 6,
-                "startColumn": 0,
-                "endColumn": 1,
                 "snippet": {
                   "text": "\tpublic static void main(String args[]) throws Exception {"
                 }
@@ -408,9 +498,6 @@
               },
               "region": {
                 "startLine": 8,
-                "endLine": 8,
-                "startColumn": 0,
-                "endColumn": 1,
                 "snippet": {
                   "text": "\t\tString filename = args[0];"
                 }
@@ -440,9 +527,6 @@
               },
               "region": {
                 "startLine": 10,
-                "endLine": 19,
-                "startColumn": 0,
-                "endColumn": 1,
                 "snippet": {
                   "text": "\t\t\tfilename = \"\" + (Integer.parseInt(filename) % 3);"
                 }
@@ -473,9 +557,6 @@
               },
               "region": {
                 "startLine": 10,
-                "endLine": 10,
-                "startColumn": 0,
-                "endColumn": 1,
                 "snippet": {
                   "text": "\t\t\tfilename = \"\" + (Integer.parseInt(filename) % 3);"
                 }
