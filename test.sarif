@@ -221,7 +221,7 @@
         {
           "ruleIndex": 2,
           "message": {
-            "text": "The method main() in [EightBall.java](1) ignores the value returned by read() on line [14](1), which could cause the program to overlook unexpected states and conditions.\nIgnoring a method's return value can cause the program to overlook unexpected states and conditions."
+            "text": "XXX The method main() in [EightBall.java](1) ignores the value returned by read() on line [14](1), which could cause the program to overlook unexpected states and conditions.\nIgnoring a method's return value can cause the program to overlook unexpected states and conditions."
           },
           "locations": [
             {
