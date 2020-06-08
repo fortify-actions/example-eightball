@@ -8,7 +8,7 @@
           "ruleIndex": 6,
           "level": "note",
           "message": {
-            "text": "Using println() rather than a dedicated logging facility makes it difficult to monitor the behavior of the program.\nUsing `System.out` or `System.err` rather than a dedicated logging facility makes it difficult to monitor the behavior of the program."
+            "text": "XXX Using println() rather than a dedicated logging facility makes it difficult to monitor the behavior of the program.\nUsing `System.out` or `System.err` rather than a dedicated logging facility makes it difficult to monitor the behavior of the program."
           },
           "locations": [
             {
