@@ -1,4 +1,4 @@
-name: Publish scan alerts
+name: Test SARIF upload
 
 on: [push]
 
