@@ -14,7 +14,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "index": 0
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                 },
                 "region": {
                   "startLine": 14,
