@@ -32,20 +32,6 @@
               }
             }
           ],
-          "relatedLocations": [
-            {
-              "id": 1,
-              "physicalLocation": {
-                "artifactLocation": {
-                  "index": 0
-                },
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 18
-                }
-              }
-            }
-          ],
           "properties": {
             "InstanceSeverity": "3.0",
             "Confidence": "5.0"
