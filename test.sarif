@@ -14,7 +14,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "index": 0
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                 },
                 "region": {
                   "startLine": 15,
@@ -41,7 +41,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 15,
@@ -85,7 +85,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "index": 0
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                 },
                 "region": {
                   "startLine": 12,
@@ -112,7 +112,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 12,
@@ -156,7 +156,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "index": 0
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                 },
                 "region": {
                   "startLine": 6,
@@ -184,7 +184,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 6,
@@ -249,7 +249,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "index": 0
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                 },
                 "region": {
                   "startLine": 14,
@@ -276,7 +276,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 14,
@@ -321,7 +321,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "index": 0
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                 },
                 "region": {
                   "startLine": 14,
@@ -360,7 +360,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 14,
@@ -405,7 +405,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "index": 0
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                 },
                 "region": {
                   "startLine": 14,
@@ -438,7 +438,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 14,
@@ -483,7 +483,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "index": 0
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                 },
                 "region": {
                   "startLine": 14,
@@ -510,7 +510,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 14,
@@ -539,7 +539,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 16,
@@ -576,7 +576,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 14,
@@ -605,7 +605,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 14,
@@ -633,7 +633,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 14,
@@ -662,7 +662,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "index": 0
+                            "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
                           },
                           "region": {
                             "startLine": 14,
@@ -1066,7 +1066,7 @@
           "location": {
             "physicalLocation": {
               "artifactLocation": {
-                "index": 0
+                "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
               },
               "region": {
                 "startLine": 6,
@@ -1095,7 +1095,7 @@
           "location": {
             "physicalLocation": {
               "artifactLocation": {
-                "index": 0
+                "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
               },
               "region": {
                 "startLine": 8,
@@ -1124,7 +1124,7 @@
           "location": {
             "physicalLocation": {
               "artifactLocation": {
-                "index": 0
+                "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
               },
               "region": {
                 "startLine": 10,
@@ -1154,7 +1154,7 @@
           "location": {
             "physicalLocation": {
               "artifactLocation": {
-                "index": 0
+                "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
               },
               "region": {
                 "startLine": 10,
