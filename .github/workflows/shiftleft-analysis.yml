@@ -37,7 +37,7 @@ jobs:
       with:
         sarif_file: reports
     - uses: actions/upload-artifact@v2
-        if: always()
-        with:
-          name: reports
-          path: reports
+      if: always()
+      with:
+        name: reports
+        path: reports
