@@ -70,7 +70,19 @@
               ]
             }
           ],
-          
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 14
+                }
+              }
+            }
+          ],
           "properties": {
             "InstanceSeverity": "2.0",
             "Confidence": "5.0"
@@ -142,7 +154,19 @@
               ]
             }
           ],
-          
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 15
+                }
+              }
+            }
+          ],
           "properties": {
             "InstanceSeverity": "2.0",
             "Confidence": "5.0"
@@ -215,7 +239,20 @@
               ]
             }
           ],
-          
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 16
+                }
+              }
+            }
+          ],
           "properties": {
             "InstanceSeverity": "2.0",
             "Confidence": "5.0"
@@ -224,7 +261,7 @@
         {
           "ruleIndex": 2,
           "message": {
-            "text": "XXXX The method main() in [EightBall.java](1) ignores the value returned by read() on line [14](1), which could cause the program to overlook unexpected states and conditions.\nIgnoring a method's return value can cause the program to overlook unexpected states and conditions."
+            "text": "The method main() in [EightBall.java](1) ignores the value returned by read() on line [14](1), which could cause the program to overlook unexpected states and conditions.\nIgnoring a method's return value can cause the program to overlook unexpected states and conditions."
           },
           "locations": [
             {
@@ -287,7 +324,19 @@
               ]
             }
           ],
-          
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 28
+                }
+              }
+            }
+          ],
           "properties": {
             "InstanceSeverity": "2.0",
             "Confidence": "5.0"
@@ -359,7 +408,19 @@
               ]
             }
           ],
-          
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 18
+                }
+              }
+            }
+          ],
           "properties": {
             "InstanceSeverity": "3.0",
             "Confidence": "5.0"
@@ -431,7 +492,19 @@
               ]
             }
           ],
-          
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 18
+                }
+              }
+            }
+          ],
           "properties": {
             "InstanceSeverity": "3.0",
             "Confidence": "5.0"
@@ -655,7 +728,19 @@
               ]
             }
           ],
-          
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 3
+                }
+              }
+            }
+          ],
           "properties": {
             "InstanceSeverity": "3.0",
             "Confidence": "5.0"
