@@ -1,6 +1,9 @@
 name: FoD scan
-x
-on: [push]
+
+#on: [push]
+on: 
+  schedule:
+    - cron:  '0 * * * *'
 
 jobs:
   build:
