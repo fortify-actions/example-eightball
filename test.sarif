@@ -18,9 +18,9 @@
                 },
                 "region": {
                   "startLine": 15,
-				  "endLine": 15,
-				  "startColumn": 0,
-				  "endColumn": 1,
+                  "endLine": 15,
+                  "startColumn": 0,
+                  "endColumn": 1,
                   "snippet": {
                     "text": "\t\tSystem.out.println(buffer);"
                   }
@@ -48,9 +48,9 @@
                           },
                           "region": {
                             "startLine": 15,
-							"endLine": 15,
-							"startColumn": 0,
-							"endColumn": 1,
+                            "endLine": 15,
+                            "startColumn": 0,
+                            "endColumn": 1,
                             "snippet": {
                               "text": "\t\tSystem.out.println(buffer);"
                             }
@@ -86,8 +86,8 @@
                 "region": {
                   "startLine": 15,
                   "endLine": 15,
-				  "startColumn": 14,
-				  "endColumn": 15,
+                  "startColumn": 14,
+                  "endColumn": 15
                 }
               }
             }
@@ -111,9 +111,9 @@
                 },
                 "region": {
                   "startLine": 12,
-				  "endLine": 12,
-				  "startColumn": 0,
-				  "endColumn": 1,
+                  "endLine": 12,
+                  "startColumn": 0,
+                  "endColumn": 1,
                   "snippet": {
                     "text": "\t\t\tSystem.out.println(\"Invalid input.\");"
                   }
@@ -141,9 +141,9 @@
                           },
                           "region": {
                             "startLine": 12,
-						    "endLine": 12,
-				            "startColumn": 0,
-				            "endColumn": 1,
+                            "endLine": 12,
+                            "startColumn": 0,
+                            "endColumn": 1,
                             "snippet": {
                               "text": "\t\t\tSystem.out.println(\"Invalid input.\");"
                             }
@@ -179,8 +179,8 @@
                 "region": {
                   "startLine": 12,
                   "startColumn": 15,
-				  "endLine": 12,
-				  "endColumn": 16,
+                  "endLine": 12,
+                  "endColumn": 16
                 }
               }
             }
@@ -204,8 +204,8 @@
                 "region": {
                   "startLine": 6,
                   "endLine": 16,
-				  "startColumn": 0,
-				  "endColumn": 1,
+                  "startColumn": 0,
+                  "endColumn": 1,
                   "snippet": {
                     "text": "\tpublic static void main(String args[]) throws Exception {\n\t\tchar[] buffer = new char[1024];\n\t\tString filename = args[0];\n\t\ttry {\n\t\t\tfilename = \"\" + (Integer.parseInt(filename) % 3);\n\t\t} catch (Exception e) {\n\t\t\tSystem.out.println(\"Invalid input.\");\n\t\t}\n\t\tnew FileReader(filename).read(buffer);\n\t\tSystem.out.println(buffer);\n\t}"
                   }
@@ -234,8 +234,8 @@
                           "region": {
                             "startLine": 6,
                             "endLine": 16,
-							"startColumn": 0,
-							"endColumn": 1,
+                            "startColumn": 0,
+                            "endColumn": 1,
                             "snippet": {
                               "text": "\tpublic static void main(String args[]) throws Exception {\n\t\tchar[] buffer = new char[1024];\n\t\tString filename = args[0];\n\t\ttry {\n\t\t\tfilename = \"\" + (Integer.parseInt(filename) % 3);\n\t\t} catch (Exception e) {\n\t\t\tSystem.out.println(\"Invalid input.\");\n\t\t}\n\t\tnew FileReader(filename).read(buffer);\n\t\tSystem.out.println(buffer);\n\t}"
                             }
@@ -272,7 +272,7 @@
                   "startLine": 6,
                   "startColumn": 2,
                   "endLine": 16,
-				  "endColumn": 3
+                  "endColumn": 3
                 }
               }
             }
@@ -295,9 +295,9 @@
                 },
                 "region": {
                   "startLine": 14,
-				  "endLine": 14,
-				  "startColumn": 0,
-				  "endColumn": 1,
+                  "endLine": 14,
+                  "startColumn": 0,
+                  "endColumn": 1,
                   "snippet": {
                     "text": "\t\tnew FileReader(filename).read(buffer);"
                   }
@@ -325,9 +325,9 @@
                           },
                           "region": {
                             "startLine": 14,
-							  "endLine": 14,
-							  "startColumn": 0,
-							  "endColumn": 1,
+                            "endLine": 14,
+                            "startColumn": 0,
+                            "endColumn": 1,
                             "snippet": {
                               "text": "\t\tnew FileReader(filename).read(buffer);"
                             }
@@ -386,9 +386,9 @@
                 },
                 "region": {
                   "startLine": 14,
-				  "endLine": 14,
-				  "startColumn": 0,
-				  "endColumn": 1,
+                  "endLine": 14,
+                  "startColumn": 0,
+                  "endColumn": 1,
                   "snippet": {
                     "text": "\t\tnew FileReader(filename).read(buffer);"
                   }
@@ -428,9 +428,9 @@
                           },
                           "region": {
                             "startLine": 14,
-							  "endLine": 14,
-							  "startColumn": 0,
-							  "endColumn": 1,
+                            "endLine": 14,
+                            "startColumn": 0,
+                            "endColumn": 1,
                             "snippet": {
                               "text": "\t\tnew FileReader(filename).read(buffer);"
                             }
@@ -489,9 +489,9 @@
                 },
                 "region": {
                   "startLine": 14,
-				  "endLine": 14,
-				  "startColumn": 0,
-				  "endColumn": 1,
+                  "endLine": 14,
+                  "startColumn": 0,
+                  "endColumn": 1,
                   "snippet": {
                     "text": "\t\tnew FileReader(filename).read(buffer);"
                   }
@@ -525,9 +525,9 @@
                           },
                           "region": {
                             "startLine": 14,
-				  "endLine": 14,
-				  "startColumn": 0,
-				  "endColumn": 1,
+                            "endLine": 14,
+                            "startColumn": 0,
+                            "endColumn": 1,
                             "snippet": {
                               "text": "\t\tnew FileReader(filename).read(buffer);"
                             }
@@ -564,8 +564,8 @@
                 "region": {
                   "startLine": 14,
                   "startColumn": 18,
-				  "endLine": 14,
-				  "endColumn": 19
+                  "endLine": 14,
+                  "endColumn": 19
                 }
               }
             }
@@ -588,6 +588,9 @@
                 },
                 "region": {
                   "startLine": 14,
+                  "endLine": 14,
+                  "startColumn": 0,
+                  "endColumn": 1,
                   "snippet": {
                     "text": "\t\tnew FileReader(filename).read(buffer);"
                   }
@@ -710,6 +713,9 @@
                           },
                           "region": {
                             "startLine": 14,
+                            "endLine": 14,
+                            "startColumn": 0,
+                            "endColumn": 1,
                             "snippet": {
                               "text": "\t\tnew FileReader(filename).read(buffer);"
                             }
@@ -738,6 +744,9 @@
                           },
                           "region": {
                             "startLine": 14,
+                            "endLine": 14,
+                            "startColumn": 0,
+                            "endColumn": 1,
                             "snippet": {
                               "text": "\t\tnew FileReader(filename).read(buffer);"
                             }
@@ -767,6 +776,9 @@
                           },
                           "region": {
                             "startLine": 14,
+                            "endLine": 14,
+                            "startColumn": 0,
+                            "endColumn": 1,
                             "snippet": {
                               "text": "\t\tnew FileReader(filename).read(buffer);"
                             }
@@ -1185,6 +1197,9 @@
               },
               "region": {
                 "startLine": 6,
+                "endLine": 6,
+                "startColumn": 0,
+                "endColumn": 1,
                 "snippet": {
                   "text": "\tpublic static void main(String args[]) throws Exception {"
                 }
@@ -1214,6 +1229,9 @@
               },
               "region": {
                 "startLine": 8,
+                "endLine": 8,
+                "startColumn": 0,
+                "endColumn": 1,
                 "snippet": {
                   "text": "\t\tString filename = args[0];"
                 }
@@ -1243,6 +1261,9 @@
               },
               "region": {
                 "startLine": 10,
+                "endLine": 19,
+                "startColumn": 0,
+                "endColumn": 1,
                 "snippet": {
                   "text": "\t\t\tfilename = \"\" + (Integer.parseInt(filename) % 3);"
                 }
@@ -1273,6 +1294,9 @@
               },
               "region": {
                 "startLine": 10,
+                "endLine": 10,
+                "startColumn": 0,
+                "endColumn": 1,
                 "snippet": {
                   "text": "\t\t\tfilename = \"\" + (Integer.parseInt(filename) % 3);"
                 }
