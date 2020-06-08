@@ -32,51 +32,6 @@
               }
             }
           ],
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "index": 0
-                    },
-                    {
-                      "index": 1
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "index": 0
-                          },
-                          "region": {
-                            "startLine": 14,
-                            "snippet": {
-                              "text": "\t\tnew FileReader(filename).read(buffer);"
-                            }
-                          },
-                          "contextRegion": {
-                            "startLine": 11,
-                            "endLine": 17,
-                            "snippet": {
-                              "text": "\t\t} catch (Exception e) {\n\t\t\tSystem.out.println(\"Invalid input.\");\n\t\t}\n\t\tnew FileReader(filename).read(buffer);\n\t\tSystem.out.println(buffer);\n\t}\n}\n"
-                            }
-                          }
-                        },
-                        "message": {
-                          "text": "FileReader(0)"
-                        }
-                      },
-                      "kinds": [
-                        "call",
-                        "function"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
           "relatedLocations": [
             {
               "id": 1,
