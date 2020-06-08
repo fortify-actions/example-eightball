@@ -70,20 +70,7 @@
               ]
             }
           ],
-          "relatedLocations": [
-            {
-              "id": 1,
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
-                },
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 14
-                }
-              }
-            }
-          ],
+          
           "properties": {
             "InstanceSeverity": "2.0",
             "Confidence": "5.0"
@@ -155,20 +142,7 @@
               ]
             }
           ],
-          "relatedLocations": [
-            {
-              "id": 1,
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
-                },
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 15
-                }
-              }
-            }
-          ],
+          
           "properties": {
             "InstanceSeverity": "2.0",
             "Confidence": "5.0"
@@ -241,21 +215,7 @@
               ]
             }
           ],
-          "relatedLocations": [
-            {
-              "id": 1,
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 2,
-                  "endLine": 16
-                }
-              }
-            }
-          ],
+          
           "properties": {
             "InstanceSeverity": "2.0",
             "Confidence": "5.0"
@@ -327,20 +287,7 @@
               ]
             }
           ],
-          "relatedLocations": [
-            {
-              "id": 1,
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
-                },
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 28
-                }
-              }
-            }
-          ],
+          
           "properties": {
             "InstanceSeverity": "2.0",
             "Confidence": "5.0"
@@ -412,20 +359,7 @@
               ]
             }
           ],
-          "relatedLocations": [
-            {
-              "id": 1,
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
-                },
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 18
-                }
-              }
-            }
-          ],
+          
           "properties": {
             "InstanceSeverity": "3.0",
             "Confidence": "5.0"
@@ -497,20 +431,7 @@
               ]
             }
           ],
-          "relatedLocations": [
-            {
-              "id": 1,
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
-                },
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 18
-                }
-              }
-            }
-          ],
+          
           "properties": {
             "InstanceSeverity": "3.0",
             "Confidence": "5.0"
@@ -734,20 +655,7 @@
               ]
             }
           ],
-          "relatedLocations": [
-            {
-              "id": 1,
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main/java/com/fortify/sca/plugins/maven/samples/EightBall.java"
-                },
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 3
-                }
-              }
-            }
-          ],
+          
           "properties": {
             "InstanceSeverity": "3.0",
             "Confidence": "5.0"
