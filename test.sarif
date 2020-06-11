@@ -39,7 +39,8 @@
                 "region": {
                   "startLine": 14,
                   "endLine": 14,
-                  "startColumn": 0
+                  "startColumn": 0,
+				  "endColumn": 1
                 }
               }
             }
