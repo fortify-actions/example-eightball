@@ -6,7 +6,6 @@
       "tool": {
         "driver": {
           "name": "Fortify",
-          "fullName": "Fortify on Demand",
           "rules": [
             {
               "id": "74714BFC-EDF7-445B-8672-0996214D5845",
@@ -38,7 +37,7 @@
                 },
                 "region": {
                   "startLine": 14,
-                  "endLine": 14,
+                  "endLine": 15,
                   "startColumn": 0,
 				  "endColumn": 1
                 }
