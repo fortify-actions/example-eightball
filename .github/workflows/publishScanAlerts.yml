@@ -1,9 +1,6 @@
 name: Publish scan alerts
 
-#on: [push]
-on: 
-  schedule:
-    - cron:  '0 0 1 1 *'
+on: [push]
 
 jobs:
   build:
@@ -11,27 +8,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-dotnet@v1
-      - uses: fortify-actions/fod-download-fpr@master
+      - uses: fortify-actions/fod-generate-sarif@master
         with:
           base-url: https://ams.fortify.com
           tenant: FortifyPS
           user: ${{ secrets.FOD_USER }}
           password: ${{ secrets.FOD_PWD }}
           release-id: 250384
-          outputDir: ./fpr
-      - uses: fortify-actions/fpr-to-sarif@master
-        with:
-          input: ./fpr
-          outputDir: ./sarif
+          output: ./sarif/output.sarif
       - uses: github/codeql-action/upload-sarif@v1
         with:
-          sarif_file: ./sarif
-      - uses: actions/upload-artifact@v2
-        if: always()
-        with:
-          name: fpr-files
-          path: ./fpr
+          sarif_file: ./sarif/output.sarif
       - uses: actions/upload-artifact@v2
         if: always()
         with:
