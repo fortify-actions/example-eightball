@@ -1,0 +1,29 @@
+name: FoD scan
+
+#on: [push]
+on: 
+  schedule:
+    - cron:  '0 0 1 1 *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+      - uses: fortify-actions/setup-bugtracker-utility@master
+      - env:
+          FBTU_FODBASEURL: https://ams.fortify.com/
+          FBTU_FODTENANT: MyTenant
+          FBTU_FODUSERNAME: ${{ secrets.FOD_USER }}
+          FBTU_FODPASSWORD: ${{ secrets.FOD_PAT }}
+          FBTU_FODRELEASEID: 999999
+          FBTU_JIRABASEURL: https://myjira.atlassian.net/
+          FBTU_JIRAUSERNAME: ${{ secrets.JIRA_USER }}
+          FBTU_JIRAPASSWORD: ${{ secrets.JIRA_TOKEN }}
+          FBTU_JIRAPROJECTKEY: MyJiraProject
+        run: |
+          java -jar "$FBTU_JAR" -configFile "$FBTU_DIR/FoDToJira.xml" -help
